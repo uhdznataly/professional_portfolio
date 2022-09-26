@@ -121,6 +121,10 @@ max-width: 45%;
 
 }
 
+.fakeimg {
+  max-width: 65%;
+}
+
 
 .about-me p{
   display: flex;
