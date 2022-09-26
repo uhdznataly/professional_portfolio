@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  border:10px solid darkred;
+  background-image: url("./images/IMG_0943.jpg");
+  background-position: fixed;
+  
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  color: darkred;
+}
+
+/* Increase the font size of the subheading */
+.header h3{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: darkred;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: bisque;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+  
+}
+  
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: brown;
+  color: green;
+}
+
+
+
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: lightgrey;
+  padding: 20px;
+
+}
+
+.about-me {
+  border: 10px solid darkred;
+  background-color: rgb(208, 199, 188);
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 10px gray;
+}
+
+.portfolio {
+  border: 10px solid darkred;
+  background-color: rgb(208, 199, 188);
+  : url("./images/IMG_0943.jpg");
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 10px gray;
+  
+  
+}
+
+
+.resume {
+  border: 10px solid darkred;
+  background-color: rgb(208, 199, 188);
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 10px gray;
+  
+}
+
+.contact-info {
+  border: 10px solid darkred;
+  background-color: rgb(208, 199, 188);
+  padding: 10px 20px 10px 20px;
+  box-shadow: 10px 10px 10px gray;
+  
+
+
+
+
+}
+/* About me img */
+.selfie {
+  padding-inline: 20px;
+  text-align:left;
+  padding:20px;
+
+}
+
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row{   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
