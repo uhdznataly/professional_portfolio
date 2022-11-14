@@ -33,13 +33,13 @@
       <h2>About Me</h2>
       <h5>Photo of me:</h5>
       <div class="selfie">
-        <img src="./images/IMG_8139.JPG" class="selfie">
+        <img id="picture" src="./images/IMG_8139.JPG" class="selfie">
       </div>
-      <p>My name is Nataly Rodriguez. I was born in Houston, TX, but currently reside in Austin, TX.
+      <p id="intro">My name is Nataly Rodriguez. I was born in Houston, TX, but currently reside in Austin, TX.
         I graduated from the University of Houston in 2017 with a B.S in Education. I have been working as a Math
         Teacher for six years.
-        I am currently attending the University of Texas' Coding Bootcamp in the hopes to become a Software Engineer. I
-        will complete my course in March 2023.
+        <span id="bootcamp-info">I am currently attending the University of Texas' Coding Bootcamp in the hopes to become a Software Engineer. I
+        will complete my course in March 2023.</span> 
         During this course, I created a portfolio to show off the skills I have learned throughout the Bootcamp. Feel
         free to contact me about any questions you may have!</p>
 
@@ -65,6 +65,8 @@
       </div>
     </div>
 
+
+
     <div id="contact-info" class="contact-info">
       <h2>Contact Info</h2>
       <p>Get in contact with me using one of these options. I look forward to hearing from you!</p>
@@ -79,9 +81,20 @@
   </div>
 
   <div class="footer">
-    <h2>🌅</h2>
+    <h2 id="footer-details">🌅</h2>
   </div>
 
+  <div id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li id="skill_list"></li>
+
+    </ul>
+    <button type="button" onclick="myFunction()">Update Intro</button>
+
+  </div>
   <script src="index.js"></script>
 </body>
 

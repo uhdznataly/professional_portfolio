@@ -86,7 +86,7 @@ body {
 .portfolio {
   border: 10px solid darkred;
   background-color: rgb(208, 199, 188);
-  : url("./images/IMG_0943.jpg");
+  background-image: url("./images/IMG_0943.jpg");
   padding: 10px 20px 10px 20px;
   margin-bottom: 20px;
   box-shadow: 10px 10px 10px gray;
